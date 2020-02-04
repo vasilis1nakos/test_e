@@ -1,0 +1,68 @@
+.panel_domain_select a.cartbtn {
+    -webkit-box-shadow:none;
+            box-shadow:none;
+    border-radius: 2px;
+    border: none !important;
+    padding:4px 0;
+    font-size: 16px;
+    margin-right:5px;
+}
+
+
+.panel_domain_select a.cartbtn.orange {
+    width:100px;
+    background:#52b266;
+    font-size:14px;
+    min-width:inherit;
+    padding:4px 0;
+    float: right;
+}
+
+.domain_selection .domainResultPanel {
+    padding-top:20px;
+}
+
+.domain_selection .LblExistingDomain {
+    padding-top:0 !important;
+}
+
+
+table.domain_selection #useMyDNS .existing_btn.cartbtn.orange {
+    margin-top:10px
+}
+
+#useMyDNS .LblExistingDomain {
+    position:relative;
+    top:-10px;
+    margin-left:5px;
+}
+
+
+#domainItems.repeater .data .panel_emails .panel_email_inner ol li .gray_link_btn{
+    position: relative;
+    left: 8px;	
+}
+
+
+
+#register a.cartbtn{
+    background:#52b266;
+    font-size:14px;
+    font-weight:bold;
+}
+
+
+
+#fromcart  a.cartbtn.orange {
+    position:relative;
+    top:12px;
+}
+
+
+#OwnerNewCity .form-input,
+#OwnerNewPhone .form-input {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
