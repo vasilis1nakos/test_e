@@ -1,0 +1,45 @@
+
+.cart .repeater .rpHeader .product {
+    width: 300px;
+    font-size: 22px;
+    height: 30px;
+    color: #fff;
+}
+
+
+
+.cart .repeater .rpHeader .auto_renew,
+.cart .repeater .rpHeader .duration,
+.cart .repeater .rpHeader .price,
+.cart .repeater .rpHeader .delete {
+    height: 30px;
+}
+
+
+
+
+.cart .repeater .rpHeader .auto_renew,
+.cart .repeater .rpHeader .duration,
+.cart .repeater .rpHeader .price,
+.cart .repeater .rpHeader .delete a {
+    color: #fff;
+}
+
+
+.rpHeader .auto_renew .tipTip {
+    position: absolute;
+    top: -1px;
+    width: 15px;
+}
+
+
+.cart .form-submit{
+
+display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    }
+
