@@ -1,4 +1,3 @@
-
 .cart .repeater .rpHeader .product {
     width: 300px;
     font-size: 22px;
@@ -43,3 +42,30 @@ display: -webkit-box;
     justify-content: flex-end;
     }
 
+
+
+/*step4 non-EU countries*/
+    .checkout #userinfo1 .form-field.mobile-phone input {
+        height: 34px;
+        line-height: 33px;
+        border: 1px solid #4e9ed4;
+        border-radius:0 4px 4px 0;
+        padding: 4px;
+        width: 266px;
+        -webkit-box-shadow:none;
+                box-shadow:none;
+        outline:none;
+    }
+
+.checkout #userinfo1 .pan-mobile-phone span.tipTip img {
+    display:none;
+}
+
+.checkout #userinfo1 .pan-mobile-phone span.tipTip:after {
+    font-family: 'FontAwesome';
+    content: "\f059 ";
+    font-size: 18px;
+    color: #cecece;
+    position:relative;
+    top:1px;    
+}
