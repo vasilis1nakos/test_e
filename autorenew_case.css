@@ -71,6 +71,11 @@ display: -webkit-box;
 }
 
 /*sidebar minor fix*/
+
+a.edit_order_new_btn {
+   text-align:center;
+}
+
 #cartbar #faq_banner:before {
     top:-3px;
 }
