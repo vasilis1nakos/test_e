@@ -69,3 +69,8 @@ display: -webkit-box;
     position:relative;
     top:1px;    
 }
+
+/*sidebar minor fix*/
+#cartbar #faq_banner:before {
+    top:-3px;
+}
