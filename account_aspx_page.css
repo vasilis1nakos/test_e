@@ -148,6 +148,16 @@ img#ctl00_ContentPlaceHolder1_imgWarningLogin {
     margin-top:20px;
 }
 
+.auDomainInfo legend, .xxxDomainInfo legend {
+    color:#4e9ed4;
+}
+
+.auDomainInfo input[type="text"] {
+    outline:none;
+    border-radius:2px;
+    border:1px solid #898989;
+}
+
 
 /*Step 4 extras*/
 .checkout.checkoutv1 #ctl00_ContentPlaceHolder1_NewAFM.form-field .form-input input#ctl00_ContentPlaceHolder1_afm[readonly] {
