@@ -96,3 +96,48 @@ img#ctl00_ContentPlaceHolder1_imgWarningLogin {
     top: 1px;
     margin-right:5px;
 }
+
+
+
+
+
+/*Restrictions for domains*/
+.Description .allDomainInfo tr.alt {
+    background: #f5f5f5;
+}
+
+
+.Description .allDomainInfo th {
+    color:#656565;
+    font-family: 'Opensans-regular';    
+}
+
+
+.Description .allDomainInfo h4 {
+    border-bottom: 1px solid #4e9ed4;
+    color: #4e9ed4;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Opensans-regular';  
+}
+
+.Description .allDomainInfo h4 {
+    border-bottom: 1px solid #4e9ed4;
+    color: #4e9ed4;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Opensans-regular';  
+}
+
+.Description .allDomainInfo td input, .Description .allDomainInfo td select {
+    outline:none;
+    transition:0.2s;
+}
+
+.Description .allDomainInfo td input {
+    border-radius:2px;
+}
+
+.Description .allDomainInfo td input:focus {
+    border: 1px solid #4e9ed4;
+}
