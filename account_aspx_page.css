@@ -1,0 +1,98 @@
+
+
+.order-content .heading h2 {
+    color:#4e9ed4;
+    font-family: 'Opensans-regular';
+
+
+}
+
+.order-content .heading h3 {
+    color:#52b266;
+    font-family: 'Opensans-regular';
+    padding-top:5px;
+}
+
+
+#ctl00_ContentPlaceHolder1_lblStep1NewUserInfo,
+#ctl00_ContentPlaceHolder1_lblStep1LoginInfo {
+    font-family: 'Opensans-regular';
+    color:#656565;
+}
+
+
+#ctl00_ContentPlaceHolder1_lblStep1RemindMe a{
+    color:#4e9ed4;
+    transition:0.2s;
+}
+
+
+#ctl00_ContentPlaceHolder1_lblStep1RemindMe {
+    display:block;
+    margin-top:15px;
+}
+
+
+#ctl00_ContentPlaceHolder1_lblStep1RemindMe a{
+    color:#3491d0;
+}
+
+
+.form-label {
+    font-family: 'Opensans-bold';
+}
+
+#ctl00_ContentPlaceHolder1_imgBtnLogin,
+#ctl00_ContentPlaceHolder1_imbtnCreateAccount {
+    background: #4e9ed4;
+    color:#fff;
+    font-size: 16px;
+    font-family: 'Opensans-bold';
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    padding: 12px 0;
+    border-radius:2px;
+    text-align:center;
+    cursor:pointer;
+    outline:none;
+}
+
+#ctl00_ContentPlaceHolder1_imgBtnLogin:hover {
+    background:#3491d0;
+}
+
+
+#ctl00_ContentPlaceHolder1_imbtnCreateAccount {
+        background: #52b266;
+}
+
+
+#ctl00_ContentPlaceHolder1_imbtnCreateAccount:hover {
+        background: #3ca050;
+}
+
+
+.account_table #FreeProductError {
+    color:#f16440;
+}
+
+
+#ctl00_ContentPlaceHolder1_txtLoginUserName:focus,
+#ctl00_ContentPlaceHolder1_txtLoginPassword:focus {
+    border:1px solid #4e9ed4 !important;
+}
+
+img#ctl00_ContentPlaceHolder1_imgWarningLogin {
+    display:none;
+}
+
+#ctl00_ContentPlaceHolder1_lblWarningLogin:before {
+    font-family: 'FontAwesome';
+    content: "\f071 ";
+    font-size: 18px;
+    color: #f16440;
+    position: relative;
+    top: 1px;
+    margin-right:5px;
+}
