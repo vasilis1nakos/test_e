@@ -169,6 +169,40 @@ height:34px;
 }
 
 
+#ctl00_ContentPlaceHolder1_panAFMValidation img {
+    display:none;
+}
+
+
+#ctl00_ContentPlaceHolder1_panAFMValidation .tipTip:after {
+    font-family: 'FontAwesome';
+    content: "\f059 ";
+    font-size: 18px;
+    color: #cecece;
+    position:relative;
+    left:5px;
+}
+
+
 .checkout .afm-validation .invalid {
     color:#f16440;
 }
+
+.checkout #paymentinfo .SavedCards .graybg {
+    background:#d3eeff;
+}
+
+.checkout .SavedCards .SavedCreditCard {
+    background-image:none;
+}
+
+.checkout .SavedCards .SavedCreditCard:after {
+    font-family: 'FontAwesome';
+    content: "\f023";
+    font-size: 18px;
+    color: #52b266;
+    position:absolute;
+    right:10px;
+}
+
+
