@@ -141,3 +141,9 @@ img#ctl00_ContentPlaceHolder1_imgWarningLogin {
 .Description .allDomainInfo td input:focus {
     border: 1px solid #4e9ed4;
 }
+
+
+/*Step 3 multiple domains*/
+#ctl00_ContentPlaceHolder1_panMoreDomains {
+    margin-top:20px;
+}
