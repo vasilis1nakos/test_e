@@ -147,3 +147,28 @@ img#ctl00_ContentPlaceHolder1_imgWarningLogin {
 #ctl00_ContentPlaceHolder1_panMoreDomains {
     margin-top:20px;
 }
+
+
+/*Step 4 extras*/
+.checkout.checkoutv1 #ctl00_ContentPlaceHolder1_NewAFM.form-field .form-input input#ctl00_ContentPlaceHolder1_afm[readonly] {
+height:34px;
+}
+
+#ctl00_ContentPlaceHolder1_panAFMValidation img {
+    display:none;
+}
+
+
+#ctl00_ContentPlaceHolder1_panAFMValidation .tipTip:after {
+    font-family: 'FontAwesome';
+    content: "\f059 ";
+    font-size: 18px;
+    color: #cecece;
+    position:relative;
+    left:5px;
+}
+
+
+.checkout .afm-validation .invalid {
+    color:#f16440;
+}
