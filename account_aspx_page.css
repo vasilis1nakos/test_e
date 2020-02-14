@@ -206,3 +206,7 @@ height:34px;
 }
 
 
+.checkout .form-submit .checkout-vat-notice {
+    color:#f16440;
+    font-family: 'Opensans-regular';  
+}
