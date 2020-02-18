@@ -1,0 +1,8 @@
+a.edit_order_new_btn {
+ 	max-width: 180px;
+}
+
+#ctl00_ContentPlaceHolder1_rpDomains_ctl01_panDomainBundles a.tipTip,
+#ctl00_ContentPlaceHolder1_payment_types .tipTip {
+   text-decoration:none;
+}
