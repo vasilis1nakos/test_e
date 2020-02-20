@@ -1,0 +1,17 @@
+
+/*domain items*/
+#domainItems a.tipTip {
+   text-decoration:none;
+}
+
+/*hosting items*/
+#hostingitems a.showTooltip img,
+#hostingitems a.tipTip img {
+  display: inline;
+}
+
+#hostingitems a.showTooltip:before,
+#hostingitems a.tipTip:before{
+  display: none;
+}
+
