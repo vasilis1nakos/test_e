@@ -1,17 +1,5 @@
-
-/*domain items*/
-#domainItems a.tipTip {
-   text-decoration:none;
+.checkout .form-submit {
+    padding-bottom: 80px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
-
-/*hosting items*/
-#hostingitems a.showTooltip img,
-#hostingitems a.tipTip img {
-  display: inline;
-}
-
-#hostingitems a.showTooltip:before,
-#hostingitems a.tipTip:before{
-  display: none;
-}
-
